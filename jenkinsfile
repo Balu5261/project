@@ -4,9 +4,9 @@ pipeline{
     stage('Git Checkout'){
       steps{
         script{
-  git branch: 'main', url: 'https://github.com/Balu5261/project.git'
-}
-}
-}
-}
+        git branch: 'main', url: 'https://github.com/Balu5261/project.git'
+        }
+      }
+    }
+  }
 }
